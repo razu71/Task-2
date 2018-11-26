@@ -6,15 +6,12 @@
                 <form @submit.prevent="save">
                     <div class="form-group">
                         <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone No *" value="" v-model="login.phone"/>
-                        <!--<span v-if="errors.phone" class="has-text-danger">{{ errors.phone[0] }}</span>-->
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" id="password" placeholder="Your Password *" value="" v-model="login.password"/>
-                        <!--<span v-if="errors.password" class="has-text-danger">{{ errors.password[0] }}</span>-->
                     </div>
                     <div class="form-group">
                         <button class="btnSubmit">Login</button>
-                        <!--<input type="submit" id="submit" class="btnSubmit" value="Login" @click="save"/>-->
                     </div>
                 </form>
             </div>
